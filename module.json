@@ -1,0 +1,33 @@
+{
+  "id": "gods-and-guardians",
+  "name": "gods-and-guardians",
+  "title": "Gods & Guardians",
+  "description": "Content for Gods & Guardians in A5E",
+  "authors": [
+    {
+      "name": "Mark van Ginkel",
+      "email": "theikeh@gmail.com",
+      "discord": "theik"
+    }
+  ],
+  "url": "https://github.com/Theik/a5e-godsandguardians",
+  "version": "1.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": {
+      "id": "a5e",
+      "type": "system"
+    }
+  },
+  "packs": [
+    {
+      "name": "divine-gifts",
+      "label": "Divine Gifts",
+      "path": "packs/divine-gifts.db",
+      "type": "Item"
+    }
+  ]
+}

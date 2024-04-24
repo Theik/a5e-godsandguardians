@@ -1,0 +1,86 @@
+{
+  "name": "Divine Spark: Acrobatics",
+  "type": "feature",
+  "img": "icons/skills/movement/feet-winged-boots-glowing-yellow.webp",
+  "system": {
+    "ac": {
+      "baseFormula": "",
+      "formula": "",
+      "grantsDisadvantage": false,
+      "maxDex": 0,
+      "minStr": 0,
+      "mode": 2,
+      "requiresNoShield": false,
+      "requiresUnarmored": false
+    },
+    "actions": {},
+    "description": "<p><strong>Guardian Gift</strong></p>\n<p>Your God has bestowed upon you a grace and finesse far beyond the grasp of other mortals, allowing you to easily tumble through traps and to balance on the smallest ledges.</p>\n<p>When you make a check with Acrobatics and the d20 shows a natural result of less than 10, you can count the d20 result as being 10.</p>",
+    "favorite": false,
+    "secretDescription": "",
+    "source": "",
+    "uses": {
+      "value": 0,
+      "max": "",
+      "per": "",
+      "recharge": {
+        "formula": "",
+        "threshold": 0
+      }
+    },
+    "concentration": false,
+    "featureType": "divine",
+    "grants": {},
+    "prerequisite": "",
+    "requiresBloodied": false,
+    "schemaVersion": {
+      "version": 0.016,
+      "lastMigration": null
+    }
+  },
+  "effects": [
+    {
+      "icon": "icons/skills/movement/feet-winged-boots-glowing-yellow.webp",
+      "origin": "Compendium.world.godsandguardians.Item.ArlirZfFJJUHACSb",
+      "flags": {
+        "a5e": {
+          "sort": 0,
+          "transferType": "passive"
+        }
+      },
+      "transfer": false,
+      "name": "Divine Acrobatics",
+      "_id": "Ja4Vzc5lKJmQ9AAN",
+      "changes": [
+        {
+          "key": "system.skills.acr.minRoll",
+          "value": "10",
+          "mode": 5,
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>You can't roll lower than 10 for Acrobatics.</p>",
+      "statuses": []
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "a5e",
+    "systemVersion": "0.17.33",
+    "coreVersion": "11.315",
+    "createdTime": 1713983371399,
+    "modifiedTime": 1713984368820,
+    "lastModifiedBy": "PLdX0Hm7y4dOF8TY"
+  },
+  "_id": "ArlirZfFJJUHACSb"
+}
