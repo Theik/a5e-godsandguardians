@@ -30,5 +30,7 @@
       "type": "Item",
       "system": "a5e"
     }
-  ]
+  ],
+  "manifest": "https://raw.githubusercontent.com/Theik/a5e-godsandguardians/main/module.json",
+  "download": "https://github.com/Theik/a5e-godsandguardians/archive/refs/tags/0.1.zip"
 }
