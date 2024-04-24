@@ -27,7 +27,8 @@
       "name": "divine-gifts",
       "label": "Divine Gifts",
       "path": "packs/divine-gifts.db",
-      "type": "Item"
+      "type": "Item",
+      "system": "a5e"
     }
   ]
 }
