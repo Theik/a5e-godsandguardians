@@ -1,7 +1,7 @@
 {
   "id": "gods-and-guardians",
   "title": "Gods & Guardians",
-  "version": "0.2.1",
+  "version": "0.2,2",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -39,5 +39,5 @@
     }
   ],
   "manifest": "https://raw.githubusercontent.com/Theik/a5e-godsandguardians/main/module.json",
-  "download": "https://github.com/Theik/a5e-godsandguardians/archive/refs/tags/0.2.1.zip"
+  "download": "https://github.com/Theik/a5e-godsandguardians/archive/refs/tags/0.2.2.zip"
 }
